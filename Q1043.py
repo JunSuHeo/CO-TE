@@ -17,7 +17,7 @@ for _ in range(M):
 for _ in range(M):
     for i, party in enumerate(parties):
         if not arr.isdisjoint(party):
-            res[i] = 0
+            res[i] =  0
             arr.update(party)
 
 print(sum(res))
